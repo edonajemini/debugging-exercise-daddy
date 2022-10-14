@@ -11,7 +11,7 @@ const ProductList = ({products}:Props) => {
     return(<></>)}
   return (
     <div>
-    {products.map(product =>
+    {products.products.map(product =>
       <Product product={product} />
     )}
   </div>
